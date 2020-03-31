@@ -1,3 +1,26 @@
 .search-field__title {
- 
+  color: #fff; 
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  width: 545px;
+  margin: 16px 0;
+  padding: 0;
+  
+}
+
+@media (max-width: 800px) {
+  .search-field__title {
+    width: 300px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .search-field__title {
+    width: 285px;
+  }
 }

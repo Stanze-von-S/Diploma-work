@@ -1,3 +1,4 @@
-.menu__link_on_white {
-    
-  }
+.menu__link.menu__link_on_white {
+  color: #1A1B22;
+  border-bottom-color: #1A1B22;    
+}

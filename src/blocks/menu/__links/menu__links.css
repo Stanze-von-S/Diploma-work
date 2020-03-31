@@ -1,3 +1,12 @@
 .menu__links {
-     
+  display: flex;
+  justify-content: inherit;
+  width: 190px;
+  color: #000;     
+}
+
+@media (max-width: 540px) {
+  .menu__links {
+    width: 150px;
   }
+}

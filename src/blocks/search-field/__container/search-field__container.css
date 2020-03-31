@@ -1,3 +1,24 @@
 .search-field__container {
-   
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 64px 0 80px;
+  
+}
+
+@media (max-width: 800px) {
+  .search-field__container {
+    margin: 24px 0 48px;
+    justify-content: flex-start;
   }
+}
+
+@media (max-width: 600px) {
+  .search-field__container {
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+  }
+}

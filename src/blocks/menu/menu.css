@@ -7,4 +7,25 @@
 .menu {
   display: flex;
   justify-content: space-between;
+  width: calc(100% - 205px);
+  margin: 30px 0 0;
+  padding: 0 101px 0 104px;
+  color: #000;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 800px) {
+  .menu {
+    width: calc(100% - 85px);
+    margin: 22px 0 22px;
+    padding: 0 42px;
+  }
+}
+
+@media (max-width: 540px) {
+  .menu {
+    width: calc(100% - 33px);
+    margin: 16px 0 16px;
+    padding: 0 16px;
+  }
 }

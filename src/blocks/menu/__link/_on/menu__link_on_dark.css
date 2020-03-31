@@ -1,3 +1,4 @@
-.menu__link_on_dark {
-  
+.menu__link.menu__link_on_dark {
+  color: #B6BCBF;
+  border-bottom-color: #fff;
 }

@@ -4,10 +4,20 @@
 @import url(./__subtitle/search-field__subtitle.css);
 @import url(./__title/search-field__title.css);
 
-
 .search-field {
-    display: flex;
-    flex-direction: column;
-    margin: 80px auto;
- 
+  display: flex;
+  flex-direction: column;
+  margin: 64px auto 0; 
+}
+
+@media (max-width: 800px) {
+  .search-field {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .search-field {
+    margin: 0 auto 0;
+  }
 }
