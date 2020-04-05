@@ -1,0 +1,30 @@
+.results__button {
+  width: 308px;
+  height: 64px;
+  border: 0;
+  border-radius: 80px;
+  background: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  margin: 64px auto 80px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .results__button {
+    width: 260px;
+    height: 56px;
+    margin: 22px auto 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .results__button {
+    width: calc(100% - 12px);
+    margin: 12px auto 44px;
+  }
+}

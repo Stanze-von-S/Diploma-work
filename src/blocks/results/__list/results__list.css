@@ -1,0 +1,23 @@
+@import url(../../card/card.css);
+
+.results__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  background: #F5F6F7;
+}
+
+@media (max-width: 800px) {
+  .results__list {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+  }
+}
+
+@media (max-width: 540px) {
+  .results__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
