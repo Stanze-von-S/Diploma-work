@@ -6,3 +6,6 @@
 @import url(./preloader/preloader.css);
 @import url(./not-found/not-found.css);
 @import url(./results/results.css);
+@import url(./author/author.css);
+@import url(./title/title.css);
+@import url(./subtitle/subtitle.css);

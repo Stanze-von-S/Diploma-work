@@ -1,0 +1,15 @@
+.author__image {
+  width: 39.46%;
+}
+
+@media (max-width: 1000px) { 
+  .author__image {
+    width: 35.3685%;
+  }
+}
+
+@media (max-width: 540px) {
+  .author__image {
+    width: 272px;
+  }
+}
