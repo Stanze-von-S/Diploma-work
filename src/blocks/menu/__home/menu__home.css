@@ -9,3 +9,9 @@
   color: inherit;
   text-decoration: none;
 }
+
+@media (max-width: 540px) {
+  .menu__home {
+    font-size: 16px;
+  }
+}

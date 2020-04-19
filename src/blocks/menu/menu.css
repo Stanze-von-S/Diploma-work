@@ -26,6 +26,6 @@
   .menu {
     width: calc(100% - 33px);
     margin: 16px 0 16px;
-    padding: 0 16px;
+    padding: 0 14px 0 16px;
   }
 }
