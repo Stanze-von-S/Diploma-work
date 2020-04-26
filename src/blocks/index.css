@@ -6,5 +6,6 @@
 @import url(./not-found/not-found.css);
 @import url(./results/results.css);
 @import url(./author/author.css);
-@import url(./title/title.css);
-@import url(./subtitle/subtitle.css);
+@import url(./text/text.css);
+@import url(./text-title/text-title.css);
+@import url(./text-subtitle/text-subtitle.css);

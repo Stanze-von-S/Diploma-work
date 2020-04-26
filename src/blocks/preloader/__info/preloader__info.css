@@ -1,11 +1,5 @@
 .preloader__info {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
   width: 280px;
   text-align: center;
-  color: #B6BCBF;
   margin: 24px 0 0;
 }

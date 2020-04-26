@@ -1,17 +1,3 @@
-@import url(./_white/menu__home_white.css);
-
 .menu__home {
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  color: inherit;
   text-decoration: none;
-}
-
-@media (max-width: 540px) {
-  .menu__home {
-    font-size: 16px;
-  }
 }

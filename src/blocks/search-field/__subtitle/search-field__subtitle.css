@@ -1,28 +1,17 @@
-.search-field__subtitle {
-  color: #fff;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+.search-field__subtitle {   
   width: 545px;
   margin: 16px 0 0;
-  padding: 0;
-  
+  padding: 0;  
 }
 
 @media (max-width: 800px) {
   .search-field__subtitle {
     width: 452px;
-    font-size: 18px;
-    line-height: 24px;
   }
 }
 
 @media (max-width: 540px) {
   .search-field__subtitle {
     width: 288px;
-    font-size: 20px;
-    line-height: 26px;
   }
 }

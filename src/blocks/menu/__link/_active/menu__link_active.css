@@ -1,18 +1,17 @@
-.menu__link.menu__link_active {
-  color: #fff;
+.menu__link_active {
   padding-bottom: 30px;
   border-bottom-width: 3px;
   border-bottom-style: solid;
 }
 
 @media (max-width: 800px) {
-  .menu__link.menu__link_active {
+  .menu__link_active {
     padding-bottom: 22px;
   }
 }
 
 @media (max-width: 540px) {
-  .menu__link.menu__link_active {
+  .menu__link_active {
     padding-bottom: 16px;
   }
 }

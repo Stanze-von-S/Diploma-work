@@ -1,18 +1,13 @@
 .results__links {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    text-decoration: none;    
-    color: #1A1B22;
+    text-decoration: none;     
+    text-align: end;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .results__links {
       text-align: end;
     }
-  }
+  } */
 
 @media (max-width: 540px) {
   .results__links {

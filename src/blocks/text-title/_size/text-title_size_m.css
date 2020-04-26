@@ -1,0 +1,11 @@
+.text-title_size_m {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (max-width: 540px) {
+  .text-title_size_m {
+    font-size: 16px;
+  }
+}

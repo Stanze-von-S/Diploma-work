@@ -1,10 +1,11 @@
 .not-found__message {
   width: 356px;
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 30px;
   text-align: center;
-  color: #1A1B22;
+  margin: 26px 0 0;
+}
+
+@media (max-width: 540px) {
+  .not-found__message {
+    width: 100%;
+  }
 }

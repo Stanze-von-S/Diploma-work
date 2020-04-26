@@ -1,0 +1,11 @@
+@import url(./_family/text-subtitle_family_roboto.css);
+@import url(./_family/text-subtitle_family_source-sans-pro.css);
+@import url(./_size/text-subtitle_size_l.css);
+@import url(./_size/text-subtitle_size_m.css);
+@import url(./_size/text-subtitle_size_s.css);
+@import url(./_size/text-subtitle_size_xl.css);
+@import url(./_size/text-subtitle_size_xxl.css);
+
+.text-subtitle {
+  font-style: normal;
+}
