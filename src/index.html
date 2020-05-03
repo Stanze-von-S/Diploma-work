@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang = "ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Author" content="Мамонов Константин"> 
-  <meta name="description" content="Страница поиска новостей">
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+  <meta name = "Author" content="Мамонов Константин"> 
+  <meta name = "description" content = "Страница поиска новостей">
   <title>NewsAnalyzer</title>
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
-  <link rel="stylesheet" type="text/css" href="blocks/index.css">
+  <link rel = "shortcut icon" href = "<%=require('./images/favicon.ico')%>" type = "image/x-icon">
+  <link rel = "stylesheet" href = "<%=htmlWebpackPlugin.files.chunks.index.css %>" type = "text/css">
 </head>
 
 <body>
@@ -46,7 +45,7 @@
   </section>
 
   <section class="not-found">
-    <img src="./images/not-found.svg" alt="Грустный смайлик" class="not-found__img">
+    <img src="<%=require('./images/not-found.svg')%>" alt="Грустный смайлик" class="not-found__img">
     <h3 class="not-found__message text_color_dark text-title text-title_size_l">Ничего не найдено</h3>
     <p class="not-found__message-discription  text-subtitle_family_roboto text-subtitle text-subtitle_size_xl text_color_grey">К сожалению, по вашему запросу ничего&#160;не найдено.</p>
   </section>
@@ -61,7 +60,7 @@
     <div class = "results__list">
       <div class = "card">
         <div class = "card__wrapper">
-          <img class = "card__image" src = "./images/card1.png" alt = "">
+          <img class = "card__image" src = "<%=require('./images/card1.png')%>" alt = "">
           <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
           <h3 class = "card__title text-title text-title_size_l text_color_dark">Национальное достояние – парки</h3>
           <p class = "card__description text-subtitle text-subtitle_family_roboto text-subtitle_size_l text_color_dark">
@@ -75,7 +74,7 @@
 
       <div class = "card">
         <div class = "card__wrapper">
-        <img class = "card__image" src = "./images/card2.png" alt = "">
+        <img class = "card__image" src = "<%=require('./images/card2.png')%>" alt = "">
         <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
         <h3 class = "card__title text-title text-title_size_l text_color_dark">Лесные огоньки: история одной фотографии</h3>
         <p class = "card__description text-subtitle text-subtitle_family_roboto text-subtitle_size_l text_color_dark">
@@ -89,7 +88,7 @@
 
       <div class = "card">
         <div class = "card__wrapper">
-        <img class = "card__image" src = "./images/card3.png" alt = "">
+        <img class = "card__image" src = "<%=require('./images/card3.png')%>" alt = "">
         <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
         <h3 class = "card__title text-title text-title_size_l text_color_dark">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
         <p class = "card__description text-subtitle text-subtitle_family_roboto text-subtitle_size_l text_color_dark">
@@ -103,7 +102,7 @@
 
       <div class = "card">
         <div class = "card__wrapper">
-        <img class = "card__image" src = "./images/card4.png" alt = "">
+        <img class = "card__image" src = "<%=require('./images/card4.png')%>" alt = "">
         <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
         <h3 class = "card__title text-title text-title_size_l text_color_dark">Национальное достояние – парки</h3>
         <p class = "card__description text-subtitle text-subtitle_family_roboto text-subtitle_size_l text_color_dark">
@@ -117,7 +116,7 @@
 
       <div class = "card">
         <div class = "card__wrapper">
-        <img class = "card__image" src = "./images/card5.png" alt = "">
+        <img class = "card__image" src = "<%=require('./images/card5.png')%>" alt = "">
         <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
         <h3 class = "card__title text-title text-title_size_l text_color_dark">Лесные огоньки: история одной фотографии</h3>
         <p class = "card__description text-subtitle text-subtitle_family_roboto text-subtitle_size_l text_color_dark">
@@ -131,7 +130,7 @@
 
       <div class = "card">
         <div class = "card__wrapper">
-        <img class = "card__image" src = "./images/card6.png" alt = "">
+        <img class = "card__image" src = "<%=require('./images/card6.png')%>" alt = "">
         <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
         <h3 class = "card__title text-title text-title_size_l text_color_dark">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
         <p class = "card__description text-subtitle text-subtitle_family_roboto text-subtitle_size_l text_color_dark">
@@ -150,7 +149,7 @@
   </section>
 
   <section class = "author">
-    <img class = "author__image" src = "./images/avatar.png" alt = "Фотография автора сайта">
+    <img class = "author__image" src = "<%=require('./images/avatar.png')%>" alt = "Фотография автора сайта">
     <div class = "author__wrapper">
       
       <h2 class = "author__title text-title text-title_size_xl text_color_dark">Об авторе</h2>
@@ -176,5 +175,6 @@
 
   </section>
 
+  <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
 </body>
 </html>
