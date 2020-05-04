@@ -25,16 +25,21 @@ module.exports = {
         'postcss-loader'] // к этим файлам нужно применить пакеты, которые мы уже установили
         },
         {
-      test: /\.(png|jpg|gif|ico|svg)$/,
+      test: /\.(png|jpg|gif|ico|svg)$/i,
       use: [
-        'file-loader?name=../images/[name].[ext]', // указали папку, куда складывать изображения
+        {
+          loader: 'file-loader',
+          options: {
+            name: './images/[name].[ext]',
+            esModule: false
+          }
+        },
         {
           loader: 'image-webpack-loader',
           options: {
-            bypassOnDebug: true,
-            disable: true,
+            preset: ['default'],
           }
-        },
+        }
       ]        
         },
         {
