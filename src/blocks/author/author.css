@@ -17,11 +17,11 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .author {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 24px 0;
+    padding: 32px 16px 0;
   }
 }

@@ -4,7 +4,7 @@
   border-bottom-style: solid;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .menu__link_active {
     padding-bottom: 22px;
   }

@@ -1,3 +1,6 @@
+@import url(./_theme/menu__links_theme_local.css);
+@import url(./_theme/menu_links_theme_social.css);
+
 .menu__links {
   display: flex;
   justify-content: inherit;

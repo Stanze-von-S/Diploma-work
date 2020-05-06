@@ -21,7 +21,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .author__wrapper {
     margin: 24px 0 44px;
     width: 100%;

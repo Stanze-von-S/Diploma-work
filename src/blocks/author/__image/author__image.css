@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .author__image {
     width: 272px;
   }
