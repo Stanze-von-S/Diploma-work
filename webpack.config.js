@@ -1,5 +1,5 @@
 const path = require('path');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // Подключили к проекту плагин
+const MiniCssExtractPlugin = require("mini-css-extract-plugin"); 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const webpack = require('webpack');
@@ -7,22 +7,26 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
-  entry: { index: './src/index.js' },
+	entry: {
+		index: './src/index.js', 
+		about: './src/about.js'
+	},
+
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[chunkhash].js'
   },
   module: {
-    rules: [{ // тут описываются правила
-      test: /\.js$/, // регулярное выражение, которое ищет все js файлы
-      use: { loader: "babel-loader" }, // весь JS обрабатывается пакетом babel-loader
-      exclude: /node_modules/ // исключает папку node_modules
+    rules: [{
+      test: /\.js$/,
+      use: { loader: "babel-loader" }, 
+      exclude: /node_modules/
         },
         {
-      test: /\.css$/, // применять это правило только к CSS-файлам
+      test: /\.css$/,
       use: [(isDev ? 'style-loader' : MiniCssExtractPlugin.loader), 
         'css-loader', 
-        'postcss-loader'] // к этим файлам нужно применить пакеты, которые мы уже установили
+        'postcss-loader'] 
         },
         {
       test: /\.(png|jpg|gif|ico|svg)$/i,
@@ -50,7 +54,7 @@ module.exports = {
     },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'style.[contenthash].css'
+      filename: '[name].[contenthash].css'
     }),
     new OptimizeCssAssetsPlugin({
         assetNameRegExp: /\.css$/g,
@@ -61,10 +65,15 @@ module.exports = {
         canPrint: true
     }),
     new HtmlWebpackPlugin({
-      // Означает, что:
-      inject: false, // стили НЕ нужно прописывать внутри тегов
-      template: 'src/index.html', // откуда брать образец для сравнения с текущим видом проекта
-      filename: 'index.html', // имя выходного файла, то есть того, что окажется в папке dist после сборки
+      inject: false, 
+      template: 'src/index.html',
+      filename: 'index.html',
+      favicon: 'src/images/favicon.ico'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: 'src/about.html', 
+      filename: 'about.html',
       favicon: 'src/images/favicon.ico'
     }),
     new WebpackMd5Hash(),

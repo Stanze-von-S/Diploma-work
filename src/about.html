@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+  <meta name = "Author" content="Мамонов Константин"> 
+  <meta name = "description" content = "О проекте">
+  <title>NewsAnalyzer</title>
+  <link rel = "shortcut icon" href = "<%=require('./images/favicon.ico')%>" type = "image/x-icon">
+  <link rel = "stylesheet" href = "<%=htmlWebpackPlugin.files.chunks.about.css %>" type = "text/css">
+</head>
+
+<body>
+
+  <section class="description">
+
+    <nav class="menu header__menu menu_theme_light">
+      <a href="index.html" class="menu__link text-title text-title_size_m text_color_dark">NewsAnalyzer</a>
+
+      <div class="menu__links">
+        <a href="./index.html" class="menu__link menu__link_on_white text_color_grey text-subtitle text-subtitle_size_xxl">Главная</a>
+        <a href="./about.html" class="menu__link menu__link_on_white text_color_dark menu__link_active text-subtitle text-subtitle_size_xxl">О проекте</a>
+      </div>
+
+    </nav>
+
+    <article class = "article">
+      <h2 class = "text-title text-title_size_xl text_color_dark">Клиентам</h2>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark">
+        Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель — показать, чему научился студент, и какими технологиями владеет.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark">
+      Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциальность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark">
+      Карточки с новостями приходят с сервера и обрабатываются асихронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark">
+      При создании проекта была использона сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. А значит потенциальная аудитория возрастает.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark">
+      Проект был проверен экспертами Яндекс.Практикума. И если вашему бизесу нужен сайт, мы рекомендуем обратиться к этому студенту.
+      </p>
+    </article>
+
+  </section>
+
+  <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+      
+</body>

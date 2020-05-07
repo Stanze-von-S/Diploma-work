@@ -1,6 +1,8 @@
 @import url(./__link/menu__link.css);
 @import url(./__links/menu__links.css);
 
+@import url('./_theme/menu_theme_light.css');
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -16,7 +18,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .menu {
     width: calc(100% - 30px);
     padding: 0 14px 0 16px;
