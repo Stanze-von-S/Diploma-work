@@ -1,1 +1,1 @@
-import "./blocks/index.css";
+import './blocks/index.css';

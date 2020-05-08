@@ -1,1 +1,1 @@
-import ('./blocks/about.css');
+import './blocks/about.css';
