@@ -1,0 +1,4 @@
+.slider-card__date {
+  grid-area: slider-card__date;
+  margin: 0;
+}

@@ -9,3 +9,8 @@
 @import url(./article/article.css);
 @import url(./technologies/technologies.css);
 @import url(./author/author.css);
+@import url(./slider-card/slider-card.css);
+@import url(./slider-pagination/slider-pagination.css);
+@import url(./slider-button/slider-button.css);
+@import url(./results/results.css);
+@import url(./slider/slider.css);

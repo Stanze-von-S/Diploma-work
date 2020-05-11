@@ -98,6 +98,83 @@
 
   </section>
 
+  <section class="results">
+    <div class = "results__wrapper">
+      <h2 class = "results__title results__title_github text-title text-title_size_xl text_color_dark">История коммитов из GitHub</h2>
+      <a class = "results__links results__links_github text-subtitle text_color_dark text-subtitle_size_xxl" href = "https://github.com/Stanze-von-S/Diploma-work">Открыть в  Github &#160;&#62;</a>
+    </div>
+  </section>
+
+  <section class="slider">    
+  
+  <div class="swiper-container">   
+    
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>          
+          <img src = "<%=require('./images/avatar.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Инга Иванова</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">ingaiva@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">With Emmet, you can type CSS-like expressions 
+            that can be dynamically parsed, and produce 
+            output depending on what you type in the abb...</p>
+        </div>
+  
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>
+          <img src = "<%=require('./images/avatarCommit1.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Антон Долинин</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">anton@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>          
+        </div>
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>                
+          <img src = "<%=require('./images/avatarCommit2.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Мария Фёдорова</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">mariiifed@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+            Plugins > Available plugins   and find and install Emmet plugin.</p>          
+        </div>
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>          
+          <img src = "<%=require('./images/avatar.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Инга Иванова</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">ingaiva@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">With Emmet, you can type CSS-like expressions 
+            that can be dynamically parsed, and produce 
+            output depending on what you type in the abb...</p>
+        </div>
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>
+          <img src = "<%=require('./images/avatarCommit1.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Антон Долинин</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">anton@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>          
+        </div>
+        
+    </div>
+    
+    <div class="swiper-pagination slider-pagination"></div>
+
+    <div class="slider-button swiper-button-prev"></div>
+    <div class="slider-button swiper-button-next"></div>
+
+  </div>
+
+  </section>
+
+  <section class="results">
+    <a href="https://github.com/Stanze-von-S/Diploma-work">
+      <button class="results__button results__button_github text-subtitle text-subtitle_size_xl text_color_dark">Открыть в GitHub</button>
+    </a>
+  </section>
+  
   <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
       
 </body>

@@ -1,0 +1,10 @@
+.slider-card__image {
+  grid-area: slider-card__image;
+  width: 64px;
+}
+
+@media (max-width: 1439px) {
+  .slider-card__image {
+    width: 48px;
+  }
+}

@@ -1,0 +1,11 @@
+@media (min-width: 541px) {
+  .results__button.results__button_github {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .results__button.results__button_github {
+    margin-top: 50px;
+  }
+}
