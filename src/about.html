@@ -174,6 +174,28 @@
       <button class="results__button results__button_github text-subtitle text-subtitle_size_xl text_color_dark">Открыть в GitHub</button>
     </a>
   </section>
+
+  <footer class = "footer">
+    <h2 class = "text-subtitle text-subtitle_size_l text_color_grey">&copy; 2019 Supersite</h2>
+
+    <div class = "footer__wrapper">
+      <nav class = "menu__links menu__links_theme_local">
+        <a href = "index.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Главная</a>
+        <a href = "about.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">О проекте</a>
+        <a href = "https://praktikum.yandex.ru/" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Яндекс.Практикум</a>
+      </nav>
+
+      <nav class="menu__links menu__links_theme_social">
+        <a href="https://github.com/" class="">
+          <img src = "<%=require('./images/github.svg')%>" class = "">
+        </a>
+        <a href="https://www.facebook.com/" class="">
+          <img src="<%=require('./images/facebook.svg')%>" class="">
+        </a>
+      </nav>
+    </div>
+
+  </footer>
   
   <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
       
