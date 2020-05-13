@@ -1,26 +1,25 @@
 @import url(./__link/menu__link.css);
 @import url(./__links/menu__links.css);
-
-@import url('./_theme/menu_theme_light.css');
+@import url(./_theme/menu_theme_light.css);
 
 .menu {
   display: flex;
   justify-content: space-between;
   width: calc(100% - 205px);
-  padding: 0 101px 0 104px;
+  padding: 30px 101px 0 104px;
   box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
 }
 
 @media (max-width: 1000px) {
   .menu {
     width: calc(100% - 84px);
-    padding: 0 42px;
+    padding: 22px 42px;
   }
 }
 
 @media (max-width: 720px) {
   .menu {
     width: calc(100% - 30px);
-    padding: 0 14px 0 16px;
+    padding: 16px 14px 0 16px;
   }
 }

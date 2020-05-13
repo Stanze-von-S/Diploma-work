@@ -6,7 +6,6 @@ import Swiper from 'swiper';
 let mySwiper = new Swiper('.swiper-container', {
     direction: "horizontal",
     loop: true,
-    observer: true,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,      

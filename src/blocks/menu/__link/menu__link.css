@@ -3,5 +3,18 @@
 @import url(./_active/menu__link_active.css);
 
 .menu__link {
+  padding-bottom: 30px;
   text-decoration: none;
   }
+
+@media (max-width: 1000px) {
+  .menu__link {
+    padding-bottom: 22px;
+  }
+}
+
+@media (max-width: 720px) {
+  .menu__link {
+    padding-bottom: 16px;
+  }
+}

@@ -9,7 +9,8 @@ const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
 	entry: {
 		index: './src/index.js', 
-		about: './src/about.js'
+    about: './src/about.js',
+    analytics: './src/analytics.js',
 	},
 
   output: {
@@ -74,6 +75,12 @@ module.exports = {
       inject: false,
       template: 'src/about.html', 
       filename: 'about.html',
+      favicon: 'src/images/favicon.ico'
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: 'src/analytics.html', 
+      filename: 'analytics.html',
       favicon: 'src/images/favicon.ico'
     }),
     new WebpackMd5Hash(),

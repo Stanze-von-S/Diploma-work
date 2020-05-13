@@ -1,17 +1,6 @@
-.menu__link_active {
-  padding-bottom: 30px;
+.menu__link_active {  
   border-bottom-width: 3px;
   border-bottom-style: solid;
 }
 
-@media (max-width: 1000px) {
-  .menu__link_active {
-    padding-bottom: 22px;
-  }
-}
 
-@media (max-width: 540px) {
-  .menu__link_active {
-    padding-bottom: 16px;
-  }
-}
