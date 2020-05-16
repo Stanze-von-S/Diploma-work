@@ -1,3 +1,5 @@
+@import url(./__subtitle/article__subtitle.css);
+
 .article {
   display: flex;
   flex-direction: column;
