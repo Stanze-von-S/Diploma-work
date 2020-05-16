@@ -6,6 +6,6 @@
 @import url(./_size/text-subtitle_size_xxl.css);
 
 .text-subtitle {
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
 }
