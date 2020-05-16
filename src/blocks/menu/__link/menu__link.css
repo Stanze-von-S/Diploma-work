@@ -4,18 +4,9 @@
 @import url(./_header/menu__link_header.css);
 
 .menu__link {
-  /* padding-bottom: 30px; */
   text-decoration: none;
-  }
-/* 
-@media (max-width: 1000px) {
-  .menu__link {
-    padding-bottom: 22px;
-  }
 }
 
-@media (max-width: 720px) {
-  .menu__link {
-    padding-bottom: 16px;
-  }
-} */
+.menu__link:hover {
+  transform: scale(1.1);
+}

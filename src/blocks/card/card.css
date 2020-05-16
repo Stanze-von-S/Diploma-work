@@ -16,6 +16,11 @@
   margin: 0 auto;
 }
 
+.card:hover {
+  border: 1px solid #347EFF;
+  transform: scale(1.03);
+}
+
 @media (max-width: 800px) {
   .card {
     width: calc(100% - (16px)/3);

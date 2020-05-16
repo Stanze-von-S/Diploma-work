@@ -10,3 +10,7 @@
     margin-top: 16px;
   }
 }
+
+.results__links:hover {
+  transform: scale(1.1);
+}
