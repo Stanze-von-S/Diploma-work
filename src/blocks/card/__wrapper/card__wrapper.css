@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .card__wrapper {
     max-height: 120vw;
   }

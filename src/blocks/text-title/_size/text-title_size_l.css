@@ -4,7 +4,7 @@
   line-height: 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .text-title_size_l {
     font-size: 22px;
     line-height: 24px;

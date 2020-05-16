@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .results__button {
     width: calc(100% - 12px);
     margin: 12px auto 44px;

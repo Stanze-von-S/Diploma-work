@@ -21,13 +21,13 @@
   transform: scale(1.03);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .card {
     width: calc(100% - (16px)/3);
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .card {
     width: 100%;
     margin: 16px 0 0;

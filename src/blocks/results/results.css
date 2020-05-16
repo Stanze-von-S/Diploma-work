@@ -18,7 +18,7 @@
     padding: 0 40px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .results {    
     min-width: calc (100% - 32px);
     padding: 0 16px;

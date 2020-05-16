@@ -8,14 +8,14 @@
   background: #F5F6F7;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .results__list {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .results__list {
     display: flex;
     flex-direction: column;
