@@ -15,7 +15,7 @@
   .article {
     width: calc(100% - 80px);
     margin: 30px 40px 0;
-    padding-bottom: 30px;    
+    padding-bottom: 50px;    
   }
 }
 

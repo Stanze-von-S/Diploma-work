@@ -1,10 +1,12 @@
 .article__subtitle {
   margin-top: 24px;
-  margin-bottom: 4px;
+  margin-bottom: 0;
+  /* margin-bottom: 4px; */
 }
 
 @media (max-width: 720px) {
   .article__subtitle {
     margin-top: 16px;
+    margin-bottom: 0;
   }
 }
