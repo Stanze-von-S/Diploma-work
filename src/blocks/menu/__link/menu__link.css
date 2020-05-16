@@ -1,12 +1,13 @@
 @import url(./_on/menu__link_on_white.css);
 @import url(./_on/menu__link_on_dark.css);
 @import url(./_active/menu__link_active.css);
+@import url(./_header/menu__link_header.css);
 
 .menu__link {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   text-decoration: none;
   }
-
+/* 
 @media (max-width: 1000px) {
   .menu__link {
     padding-bottom: 22px;
@@ -17,4 +18,4 @@
   .menu__link {
     padding-bottom: 16px;
   }
-}
+} */
