@@ -4,12 +4,20 @@
   justify-content: flex-start;
   margin-top: 40px;
   margin-left: 104px;
+  list-style-type: none;
+  margin-block-start: 40px;
+  margin-block-end: 0;
+  margin-inline-start: 104px;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
 }
 
 @media (max-width: 1000px) {
   .topic__wrapper {    
     margin-top: 32px;
     margin-left: 40px;
+    margin-inline-start: 40px;
+    margin-block-start: 32px;
   }   
 }
 

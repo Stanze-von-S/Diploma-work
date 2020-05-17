@@ -7,13 +7,20 @@
   justify-content: space-between;
   width: calc(100% - 205px);
   padding: 30px 101px 0 104px;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 104px;
   box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
 }
 
 @media (max-width: 1000px) {
   .menu {
     width: calc(100% - 84px);
-    padding: 22px 42px;
+    padding: 22px 42px 0;
+    padding-inline-start: 42px;
   }
 }
 
@@ -21,5 +28,6 @@
   .menu {
     width: calc(100% - 30px);
     padding: 16px 14px 0 16px;
+    padding-inline-start: 16px;
   }
 }

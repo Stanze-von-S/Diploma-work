@@ -6,9 +6,11 @@
   justify-content: inherit;
   width: 190px;
   color: #000;     
+  padding-inline-start: 0;
+  list-style-type: none;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .menu__links {
     width: 145px;
   }

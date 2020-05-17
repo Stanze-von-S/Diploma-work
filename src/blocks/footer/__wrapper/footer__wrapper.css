@@ -2,6 +2,12 @@
   width: 65%;
   margin-left: 15%;
   margin-bottom: 3px;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 3px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
   display: flex;
   justify-content: space-between;
 }

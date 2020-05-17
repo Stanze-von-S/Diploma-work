@@ -13,6 +13,6 @@
   .menu__links.menu__links_theme_local {
     flex-direction: column;
     align-items: flex-start;
-    width: 288px;
+    width: 184px;
   }
 }
