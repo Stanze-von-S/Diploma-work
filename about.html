@@ -8,22 +8,24 @@
   <meta name = "description" content = "О проекте">
   <title>NewsAnalyzer</title>
   <link rel = "shortcut icon" href = "./images/favicon.ico" type = "image/x-icon">
-  <link rel = "stylesheet" href = "about.bcab253cd216e68c3ec4.css" type = "text/css">
+  <link rel = "stylesheet" href = "about.820fdd55b38695a0aa8c.css" type = "text/css">
 </head>
 
 <body>
 
   <section class="description">
 
-    <nav class="menu header__menu menu_theme_light">
-      <a href="index.html" class="menu__link text-title text-title_size_m text_color_dark">NewsAnalyzer</a>
+    <ul class="menu header__menu menu_theme_light">
+      <li class="menu__link"> <a href="index.html" class="menu__link text-title text-title_size_m text_color_dark">NewsAnalyzer</a></li>
 
-      <div class="menu__links">
-        <a href="./index.html" class="menu__link menu__link_header menu__link_on_white text_color_grey text-subtitle text-subtitle_size_xxl">Главная</a>
-        <a href="./about.html" class="menu__link menu__link_header menu__link_on_white text_color_dark menu__link_active text-subtitle text-subtitle_size_xxl">О проекте</a>
-      </div>
+      <li class="menu__links">
+        <nav class="menu__links">
+          <a href="./index.html" class="menu__link menu__link_header menu__link_on_white text_color_grey text-subtitle text-subtitle_size_xxl">Главная</a>
+          <a href="./about.html" class="menu__link menu__link_header menu__link_on_white text_color_dark text-subtitle text-subtitle_size_xxl menu__link_active">О проекте</a>
+        </nav>
+      </li>
 
-    </nav>
+    </ul>
 
     <article class = "article">
       <h2 class = "text-title text-title_size_xl text_color_dark results__title">Клиентам</h2>
@@ -178,22 +180,30 @@
   <footer class = "footer">
     <h2 class = "text-subtitle text-subtitle_size_l text_color_grey">&copy; 2019 Supersite</h2>
 
-    <div class = "footer__wrapper">
-      <nav class = "menu__links menu__links_theme_local">
-        <a href = "index.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Главная</a>
-        <a href = "about.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">О проекте</a>
-        <a href = "https://praktikum.yandex.ru/" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Яндекс.Практикум</a>
-      </nav>
+    <ul class = "footer__wrapper">
+      <li class="menu__links menu__links_theme_local">
+        <nav class = "menu__links menu__links_theme_local">
+          <a href = "index.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Главная</a>
+          <a href = "about.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">О проекте</a>
+          <a href = "https://praktikum.yandex.ru/" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Яндекс.Практикум</a>
+        </nav>
+      </li>
 
-      <nav class="menu__links menu__links_theme_social">
-        <a href="https://github.com/" class="">
-          <img src = "./images/github.svg" class = "menu__link">
-        </a>
-        <a href="https://www.facebook.com/" class="">
-          <img src="./images/facebook.svg" class="menu__link">
-        </a>
-      </nav>
-    </div>
+      <li class="menu__links menu__links_theme_social">
+        <ul class="menu__links menu__links_theme_social">
+          <li class="menu__link">
+            <a href="https://github.com/" class="menu__link">
+              <img src = "./images/github.svg" class = "" alt="Иконка Гитхаба">
+            </a>
+          </li>
+          <li class="menu__link">
+            <a href="https://www.facebook.com/" class="menu__link">
+              <img src="./images/facebook.svg" class="" alt="Иконка Фейсбука">
+            </a>
+          </li>
+      </ul>
+    </li>
+    </ul>
 
   </footer>
   
