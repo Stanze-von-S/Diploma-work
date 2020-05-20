@@ -1,0 +1,18 @@
+.menu__links.menu__links_theme_local {
+  width: 412px;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .menu__links.menu__links_theme_local {
+    width: 360px;
+  }
+}
+
+@media (max-width: 720px) {
+  .menu__links.menu__links_theme_local {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 184px;
+  }
+}

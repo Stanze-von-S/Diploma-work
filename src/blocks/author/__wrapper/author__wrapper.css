@@ -1,0 +1,29 @@
+.author__wrapper {
+  width: 51.02%;
+  margin-top: calc((100% - 776px) * 0.115909);
+  margin-right: calc((100% - 776px) * 0.254545);
+  margin-bottom: calc((100% - 776px) * 0.44318 + 4px);
+  margin-left: 56px;
+}
+
+@media (min-width: 1440px) {
+  .author__wrapper {
+    margin-top: 51px;
+    margin-bottom: 199px;
+    margin-right: 112px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .author__wrapper {
+    width: 64.6315%;
+    margin: 0 0 4px 32px;
+  }
+}
+
+@media (max-width: 720px) {
+  .author__wrapper {
+    margin: 24px 0 44px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+@import url(./__text/analytics__text.css);
+@import url(./__wrapper/analytic__wrapper.css);
+@import url(./__first-column/analytics__first-column.css);
+@import url(./__second-column/analytics__second-column.css);
+@import url(./__gist/analytics__gist.css);
+@import url(./__li/analytics__li.css);
+@import url(./__span/analytics__span.css);
+
+.analytics {
+  background: #F5F6F7;
+  padding: 80px 104px 80px;
+}
+
+@media (max-width: 1000px) {
+  .analytics {
+    padding: 40px 40px 40px;
+  }
+}
+
+@media (max-width: 720px) {
+    .analytics {
+      padding: 24px 16px 38px;
+    }
+  }

@@ -1,0 +1,35 @@
+@import url(./_github/results__button_github.css);
+
+.results__button {
+  width: 308px;
+  height: 64px;
+  border: 0;
+  border-radius: 80px;
+  background: #fff;
+  margin: 64px auto 80px;
+  cursor: pointer;
+  outline: none;
+}
+
+.results__button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 1000px) {
+  .results__button {
+    width: 260px;
+    height: 56px;
+    margin: 22px auto 40px;
+  }
+}
+
+@media (max-width: 720px) {
+  .results__button {
+    width: calc(100% - 12px);
+    margin: 12px auto 44px;
+  }
+}
+
+.results__button:active {
+  border: black solid 3px;
+}

@@ -1,0 +1,23 @@
+@import url(./__wrapper/footer__wrapper.css);
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 30px 106px 30px 104px;
+  background: #fff;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    padding: 21px 42px 21px 40px;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    padding: 20px 16px 22px;
+    width: calc(100% - 32px);
+  }
+}

@@ -1,0 +1,10 @@
+@import url(./_size/text-title_size_l.css);
+@import url(./_size/text-title_size_m.css);
+@import url(./_size/text-title_size_s.css);
+@import url(./_size/text-title_size_xl.css);
+@import url(./_size/text-title_size_xxl.css);
+
+.text-title {
+  font-family: 'Roboto Slab', "Times New Roman", Times, serif;
+  font-style: normal;
+}

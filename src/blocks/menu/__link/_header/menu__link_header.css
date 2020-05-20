@@ -1,0 +1,15 @@
+.menu__link_header {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+    .menu__link_header {
+      padding-bottom: 22px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .menu__link_header {
+      padding-bottom: 16px;
+    }
+  }

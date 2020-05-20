@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+  <meta name = "Author" content="Мамонов Константин"> 
+  <meta name = "description" content = "О проекте">
+  <title>NewsAnalyzer</title>
+  <link rel = "shortcut icon" href = "<%=require('./images/favicon.ico')%>" type = "image/x-icon">
+  <link rel = "stylesheet" href = "<%=htmlWebpackPlugin.files.chunks.about.css %>" type = "text/css">
+</head>
+
+<body>
+
+  <section class="description">
+
+    <ul class="menu header__menu menu_theme_light">
+      <li class="menu__link"> <a href="index.html" class="menu__link text-title text-title_size_m text_color_dark">NewsAnalyzer</a></li>
+
+      <li class="menu__links">
+        <nav class="menu__links">
+          <a href="./index.html" class="menu__link menu__link_header menu__link_on_white text_color_grey text-subtitle text-subtitle_size_xxl">Главная</a>
+          <a href="./about.html" class="menu__link menu__link_header menu__link_on_white text_color_dark text-subtitle text-subtitle_size_xxl menu__link_active">О проекте</a>
+        </nav>
+      </li>
+
+    </ul>
+
+    <article class = "article">
+      <h2 class = "text-title text-title_size_xl text_color_dark results__title">Клиентам</h2>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark article__subtitle">
+        Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель — показать, чему научился студент, и какими технологиями владеет.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark article__subtitle">
+      Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциальность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark article__subtitle">
+      Карточки с новостями приходят с сервера и обрабатываются асихронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark article__subtitle">
+      При создании проекта была использона сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. А значит потенциальная аудитория возрастает.
+      </p>
+      <p class = "text-subtitle text-subtitle_size_xl text_color_dark article__subtitle">
+      Проект был проверен экспертами Яндекс.Практикума. И если вашему бизесу нужен сайт, мы рекомендуем обратиться к этому студенту.
+      </p>
+    </article>
+
+  </section>
+
+  <section class="technologies results__title">
+    <h2 class = "text-title text-title_size_xl text_color_dark technologies__title">Используемые технологии</h2>
+    <div class = "technologies__wrapper">
+      <div class = "technologies__card">
+        <h3 class = "text-subtitle text-subtitle_size_xl text_color_dark">HTML</h3>
+        <img src = "<%=require('./images/html.png')%>" class = "technologies__image" alt = "Картинка html">
+      </div>
+
+      <div class = "technologies__card">
+        <h3 class = "text-subtitle text-subtitle_size_xl text_color_dark">CSS</h3>
+        <img src = "<%=require('./images/css.png')%>" class = "technologies__image" alt = "Картинка css">
+      </div>
+
+      <div class = "technologies__card">
+        <h3 class = "text-subtitle text-subtitle_size_xl text_color_dark">Java Script</h3>
+        <img src = "<%=require('./images/js.png')%>" class = "technologies__image" alt = "Картинка JS">
+      </div>
+
+      <div class = "technologies__card">
+        <h3 class = "text-subtitle text-subtitle_size_xl text_color_dark">Webpack</h3>
+        <img src = "<%=require('./images/webpack.png')%>" class = "technologies__image" alt = "Картинка Webpack">
+      </div>
+    </div>
+  </section>
+
+  <section class = "author">
+    <img class = "author__image" src = "<%=require('./images/avatar.png')%>" alt = "Фотография автора сайта">
+    <div class = "author__wrapper">
+      
+      <h2 class = "author__title text-title text-title_size_xl text_color_dark">Об авторе</h2>
+
+      <p class = "author__subtitle text-subtitle text-subtitle_size_xl text_color_dark">
+        Это блок с описанием автора проекта. Здесь 
+        следует указать, как вас зовут, чем вы занимаетесь, 
+        какими технологиями разработки владете.
+      </p>
+
+      <p class = "author__subtitle text-subtitle text-subtitle_size_xl text_color_dark">  
+        Также можно рассказать о процессе обучения в Практикуме, 
+        чему вы тут научились, и чем можете помочь потенциальным 
+        заказчикам.
+      </p>
+
+      <p class = "author__subtitle text-subtitle text-subtitle_size_xl text_color_dark">        
+        Если хотите, оставьте свои контакты: email и телефон. 
+        Так заказчики смогут с вами связаться.
+      </p>
+
+    </div>
+
+  </section>
+
+  <section class="results">
+    <div class = "results__wrapper">
+      <h2 class = "results__title results__title_github text-title text-title_size_xl text_color_dark">История коммитов из GitHub</h2>
+      <a class = "results__links results__links_github text-subtitle text_color_dark text-subtitle_size_xxl" href = "https://github.com/Stanze-von-S/Diploma-work">Открыть в  Github &#160;&#62;</a>
+    </div>
+  </section>
+
+  <section class="slider">    
+  
+  <div class="swiper-container">   
+    
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>          
+          <img src = "<%=require('./images/avatar.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Инга Иванова</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">ingaiva@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">With Emmet, you can type CSS-like expressions 
+            that can be dynamically parsed, and produce 
+            output depending on what you type in the abb...</p>
+        </div>
+  
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>
+          <img src = "<%=require('./images/avatarCommit1.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Антон Долинин</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">anton@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>          
+        </div>
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>                
+          <img src = "<%=require('./images/avatarCommit2.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Мария Фёдорова</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">mariiifed@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+            Plugins > Available plugins   and find and install Emmet plugin.</p>          
+        </div>
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>          
+          <img src = "<%=require('./images/avatar.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Инга Иванова</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">ingaiva@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">With Emmet, you can type CSS-like expressions 
+            that can be dynamically parsed, and produce 
+            output depending on what you type in the abb...</p>
+        </div>
+
+        <div class="swiper-slide slider-card">
+          <p class="slider-card__date text-subtitle text-subtitle_size_m text_color_grey">14 августа, 2019</p>
+          <img src = "<%=require('./images/avatarCommit1.png')%>" class="slider-card__image" alt = "Фотография автора коммита">
+          <h2 class="slider-card__title text-title text-title_size_l text_color_dark">Антон Долинин</h2>
+          <p class="slider-card__email text-subtitle text-subtitle_size_m text_color_dark">anton@yandex.ru</p>
+          <p class="slider-card__description text-subtitle text-subtitle_size_l text_color_dark">Emmet (formerly Zen Coding) is a web-
+            developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>          
+        </div>
+        
+    </div>
+    
+    <div class="swiper-pagination slider-pagination"></div>
+
+    <div class="slider-button swiper-button-prev"></div>
+    <div class="slider-button swiper-button-next"></div>
+
+  </div>
+
+  </section>
+
+  <section class="results">
+    <a href="https://github.com/Stanze-von-S/Diploma-work">
+      <button class="results__button results__button_github text-subtitle text-subtitle_size_xl text_color_dark">Открыть в GitHub</button>
+    </a>
+  </section>
+
+  <footer class = "footer">
+    <h2 class = "text-subtitle text-subtitle_size_l text_color_grey">&copy; 2019 Supersite</h2>
+
+    <ul class = "footer__wrapper">
+      <li class="menu__links menu__links_theme_local">
+        <nav class = "menu__links menu__links_theme_local">
+          <a href = "index.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Главная</a>
+          <a href = "about.html" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">О проекте</a>
+          <a href = "https://praktikum.yandex.ru/" class = "text-subtitle text-subtitle_family_source-sans-pro text_color_dark menu__link">Яндекс.Практикум</a>
+        </nav>
+      </li>
+
+      <li class="menu__links menu__links_theme_social">
+        <ul class="menu__links menu__links_theme_social">
+          <li class="menu__link">
+            <a href="https://github.com/" class="menu__link">
+              <img src = "<%=require('./images/github.svg')%>" class = "" alt="Иконка Гитхаба">
+            </a>
+          </li>
+          <li class="menu__link">
+            <a href="https://www.facebook.com/" class="menu__link">
+              <img src="<%=require('./images/facebook.svg')%>" class="" alt="Иконка Фейсбука">
+            </a>
+          </li>
+      </ul>
+    </li>
+    </ul>
+
+  </footer>
+  
+  <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+      
+</body>

@@ -1,0 +1,46 @@
+@import url(./__description/slider-card__description.css);
+@import url(./__email/slider-card__email.css);
+@import url(./__image/slider-card__image.css);
+@import url(./__title/slider-card__title.css);
+@import url(./__date/slider-card__date.css);
+
+.slider-card {
+  display: grid;
+  grid-template-areas: "slider-card__date slider-card__date"
+                       "slider-card__image slider-card__title"  
+                       "slider-card__image slider-card__email"  
+                       "slider-card__description slider-card__description";
+  grid-template-columns: 64px 1fr;  
+  grid-template-rows: 32px 32px 32px 1fr; 
+  grid-column-gap: 16px;
+
+  width: 352px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+
+  cursor: pointer;
+}
+
+.slider-card:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 1439px) {
+  .slider-card {
+    width: 336px;    
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: 24px 24px 24px 1fr;
+    grid-column-gap: 12px;
+  }
+}
+
+@media (max-width: 699px) {
+  .slider-card {
+    width: 288px;
+    padding: 16px;  
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: 24px 24px 24px 1fr;
+    grid-column-gap: 12px;
+  }
+}

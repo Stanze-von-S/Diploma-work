@@ -1,0 +1,20 @@
+.slider-button:after {
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #1A1B22;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;  
+    --swiper-navigation-size: 10;  
+  }
+
+
+  @media (max-width: 999px) {
+    .slider-button:after {
+      display: none;
+    }
+  }
+

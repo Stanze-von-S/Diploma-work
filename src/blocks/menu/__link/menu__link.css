@@ -1,0 +1,12 @@
+@import url(./_on/menu__link_on_white.css);
+@import url(./_on/menu__link_on_dark.css);
+@import url(./_active/menu__link_active.css);
+@import url(./_header/menu__link_header.css);
+
+.menu__link {
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  transform: scale(1.1);
+}

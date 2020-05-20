@@ -1,0 +1,18 @@
+.header__menu {  
+  margin: 0;
+  padding-top: 30px;
+}
+
+@media (max-width: 1000px) {
+    .header__menu {
+      margin: 0 0 22px;
+      padding-top: 22px ;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .header__menu {
+      margin: 0 0 16px;
+      padding-top: 16px;
+    }
+  }

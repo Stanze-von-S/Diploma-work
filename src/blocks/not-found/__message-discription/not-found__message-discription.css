@@ -1,0 +1,10 @@
+.not-found__message-discription {
+  width: 356px;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .not-found__message-discription {
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+@import url(./__subtitle/article__subtitle.css);
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 712px;
+  margin-top: 80px;
+  margin-left: 104px;
+  padding-bottom: 94px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1000px){
+  .article {
+    width: calc(100% - 80px);
+    margin: 30px 40px 0;
+    padding-bottom: 50px;    
+  }
+}
+
+@media (max-width: 720px) {
+  .article {
+    width: calc(100% - 32px);
+    margin: 16px 16px 0;
+    padding-bottom: 16px;
+  }
+}

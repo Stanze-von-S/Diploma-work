@@ -1,0 +1,16 @@
+.menu__links.menu__links_theme_social {
+    width: 68px;
+    align-items: center;
+  }
+
+@media (max-width: 1000px) {
+  .menu__links.menu__links_theme_social {
+    width: 62px;
+  }
+}
+
+@media (max-width: 720px) {
+  .menu__links.menu__links_theme_social {
+    align-items: flex-start;
+  }
+}

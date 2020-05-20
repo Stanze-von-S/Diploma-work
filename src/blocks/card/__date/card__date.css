@@ -1,0 +1,9 @@
+.card__date {  
+  margin: 20px 24px 0; 
+}
+
+@media (max-width: 1000px) {
+  .card__date {
+    margin: 16px 16px 0;
+  }
+}

@@ -1,0 +1,17 @@
+@import url(../vendor/normalize.css);
+@import url(./pages.css);
+@import url(./menu/menu.css);
+@import url(./header/__menu/header__menu.css);
+@import url(./text-subtitle/text-subtitle.css);
+@import url(./text-title/text-title.css);
+@import url(./text/text.css);
+@import url(./description/description.css);
+@import url(./article/article.css);
+@import url(./technologies/technologies.css);
+@import url(./author/author.css);
+@import url(./slider-card/slider-card.css);
+@import url(./slider-pagination/slider-pagination.css);
+@import url(./slider-button/slider-button.css);
+@import url(./results/results.css);
+@import url(./slider/slider.css);
+@import url(./footer/footer.css);

@@ -1,0 +1,17 @@
+.search-field__subtitle {   
+  width: 545px;
+  margin: 16px 0 0;
+  padding: 0;  
+}
+
+@media (max-width: 800px) {
+  .search-field__subtitle {
+    width: 452px;
+  }
+}
+
+@media (max-width: 540px) {
+  .search-field__subtitle {
+    width: 288px;
+  }
+}

@@ -1,0 +1,9 @@
+.technologies__title {
+  width: 344px;
+}
+
+@media (max-width: 400px) {
+  .technologies__title {
+    width: calc(100% - 32px);
+  }
+}

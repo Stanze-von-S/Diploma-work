@@ -1,0 +1,10 @@
+.analitycs__li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.analitycs__li:last-of-type {
+  margin-bottom: 16px;
+}

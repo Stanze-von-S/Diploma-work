@@ -1,0 +1,14 @@
+@import url(./_first/analytics__span_first.css);
+@import url(./_second/analytics__span_second.css);
+@import url(./_third/analytics__span_third.css);
+@import url(./_fourth/analytics__span_fourth.css);
+@import url(./_fifth/analytics__span_fifth.css);
+@import url(./_sixth/analytics__span_sixth.css);
+@import url(./_seventh/analytics__span_seventh.css);
+
+.analytics__span {
+    background: #2F71E5;
+    line-height: 24px;
+    margin-left: 40px;
+    padding-left: 6px;
+  }

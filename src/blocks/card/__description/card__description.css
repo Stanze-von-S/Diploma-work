@@ -1,0 +1,19 @@
+.card__description {
+  margin: 16px 24px 0;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  box-orient: vertical;
+}
+
+@media (max-width: 1000px) {
+  .card__description {
+    margin: 10px 16px 0;
+  }
+}

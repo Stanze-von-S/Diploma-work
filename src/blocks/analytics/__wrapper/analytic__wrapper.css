@@ -1,0 +1,11 @@
+@import url(./_table/analytics__wrapper_table.css);
+@import url(./_border/analytics__wrapper_border.css);
+
+.analytics__wrapper {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
