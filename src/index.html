@@ -46,7 +46,7 @@
     <p class = "preloader__info text-subtitle text-subtitle_size_xl text_color_grey">Идет поиск новостей...</p>
   </section>
 
-  <section class="not-found">
+  <section class="not-found not-found_hidden">
     <img src="<%=require('./images/not-found.svg')%>" alt="Грустный смайлик" class="not-found__img">
     <h3 class="not-found__message text_color_dark text-title text-title_size_l">Ничего не найдено</h3>
     <p class="not-found__message-discription text-subtitle text-subtitle_size_xl text_color_grey">К сожалению, по вашему запросу ничего&#160;не найдено.</p>
@@ -60,90 +60,7 @@
     </div>
 
     <div class = "results__list">
-      <div class = "card">
-        <div class = "card__wrapper">
-          <img class = "card__image" src = "<%=require('./images/card1.png')%>" alt = "">
-          <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
-          <h3 class = "card__title text-title text-title_size_l text_color_dark">Национальное достояние – парки</h3>
-          <p class = "card__description text-subtitle text-subtitle_size_l text_color_dark">
-            В 2016 году Америка отмечала важный юбилей: сто лет назад здесь 
-            начала складываться система национальных парков – охраняемых 
-            территорий, где и сегодня каждый может приобщиться к природе.
-          </p>
-        </div>
-        <p class = "card__resource text-title text-title_size_s text_color_grey">Лента.ру</p>
-      </div>
-
-      <div class = "card">
-        <div class = "card__wrapper">
-        <img class = "card__image" src = "<%=require('./images/card2.png')%>" alt = "">
-        <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
-        <h3 class = "card__title text-title text-title_size_l text_color_dark">Лесные огоньки: история одной фотографии</h3>
-        <p class = "card__description text-subtitle text-subtitle_size_l text_color_dark">
-          Фотограф отвлеклась от освещения суровой политической реальности 
-          Мексики, чтобы запечатлеть ускользающую красоту одного 
-          из местных чудес природы.
-        </p>
-        </div>
-        <p class = "card__resource text-title text-title_size_s text_color_grey">Медуза</p>
-      </div>
-
-      <div class = "card">
-        <div class = "card__wrapper">
-        <img class = "card__image" src = "<%=require('./images/card3.png')%>" alt = "">
-        <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
-        <h3 class = "card__title text-title text-title_size_l text_color_dark">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-        <p class = "card__description text-subtitle text-subtitle_size_l text_color_dark">
-          Знаменитый фотограф снимает первозданные леса России, чтобы 
-          рассказать о необходимости их сохранения. В этот раз он 
-          отправился в Двинско-Пинежскую тайгу, где...
-        </p>
-        </div>
-        <p class = "card__resource text-title text-title_size_s text_color_grey">РИА</p>
-      </div>
-
-      <div class = "card">
-        <div class = "card__wrapper">
-        <img class = "card__image" src = "<%=require('./images/card4.png')%>" alt = "">
-        <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
-        <h3 class = "card__title text-title text-title_size_l text_color_dark">Национальное достояние – парки</h3>
-        <p class = "card__description text-subtitle text-subtitle_size_l text_color_dark">
-          В 2016 году Америка отмечала важный юбилей: сто лет назад здесь 
-          начала складываться система национальных парков – охраняемых 
-          территорий, где и сегодня каждый может приобщиться к природе.
-        </p>
-        </div>
-        <p class = "card__resource text-title text-title_size_s text_color_grey">Дзен</p>
-      </div>
-
-      <div class = "card">
-        <div class = "card__wrapper">
-        <img class = "card__image" src = "<%=require('./images/card5.png')%>" alt = "">
-        <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
-        <h3 class = "card__title text-title text-title_size_l text_color_dark">Лесные огоньки: история одной фотографии</h3>
-        <p class = "card__description text-subtitle text-subtitle_size_l text_color_dark">
-          Фотограф отвлеклась от освещения суровой политической реальности 
-          Мексики, чтобы запечатлеть ускользающую красоту одного 
-          из местных чудес природы.
-        </p>
-        </div>
-        <p class = "card__resource text-title text-title_size_s text_color_grey">Афиша</p>
-      </div>
-
-      <div class = "card">
-        <div class = "card__wrapper">
-        <img class = "card__image" src = "<%=require('./images/card6.png')%>" alt = "">
-        <p class = "card__date text-subtitle_family_source-sans-pro text-subtitle text_color_grey">2 августа, 2019</p>
-        <h3 class = "card__title text-title text-title_size_l text_color_dark">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-        <p class = "card__description text-subtitle text-subtitle_size_l text_color_dark">
-          Знаменитый фотограф снимает первозданные леса России, чтобы 
-          рассказать о необходимости их сохранения. В этот раз он 
-          отправился в Двинско-Пинежскую тайгу, где...
-        </p>
-        </div>
-        <p class = "card__resource text-title text-title_size_s text_color_grey">Медиазона</p>
-      </div>     
-
+      
     </div>
 
     <button class = "results__button text-subtitle text-subtitle_size_xxl text_color_dark">Показать ещё</button>

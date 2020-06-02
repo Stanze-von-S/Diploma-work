@@ -1,4 +1,5 @@
 @import url(./_github/results__button_github.css);
+@import url(./_hidden/results__button_hidden.css);
 
 .results__button {
   width: 308px;
